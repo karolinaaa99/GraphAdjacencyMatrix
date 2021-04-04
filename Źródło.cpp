@@ -433,8 +433,6 @@ ostream& operator<<(ostream& out, Graph& g)
 
 int main(int argc, char** argv) 
 {
-	//WYDAJE MI SIE, ZE ZLE DZIALA DFS DLA GRAFU SKIEROWANEGO, ALE NIE WIEM
-	
 	//int n = 10, m = 14; //dla grafu nieskierowanego
 	int n = 10, m = 13; //dla grafu skierowanego
 	edge undirectedConnectedGraph[] = { {0,1}, {0,4}, {0,6}, {1,2}, {1,7}, {2,3}, {2,8}, {3,5}, {3,9}, {4,7}, {5,8}, {6,7}, {7,8}, {8,9} };
